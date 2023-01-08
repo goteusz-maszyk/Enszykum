@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "I": {
+      "item": "enszyk:enszyk_ingot"
+    }
+  },
+  "pattern": ["III", "III", "III"],
+  "result": {
+    "item": "enszyk:enszyk_block"
+  }
+}

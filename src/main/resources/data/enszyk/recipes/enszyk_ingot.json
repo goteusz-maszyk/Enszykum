@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "enszyk_ingot",
+  "ingredients": [
+    {
+      "item": "enszyk:enszyk_scrap"
+    },
+    {
+      "item": "enszyk:enszyk_scrap"
+    },
+    {
+      "item": "enszyk:enszyk_scrap"
+    },
+    {
+      "item": "enszyk:enszyk_scrap"
+    },
+    {
+      "item": "minecraft:netherite_scrap"
+    },
+    {
+      "item": "minecraft:netherite_scrap"
+    },
+    {
+      "item": "minecraft:netherite_scrap"
+    },
+    {
+      "item": "minecraft:netherite_scrap"
+    }
+  ],
+  "result": {
+    "item": "enszyk:enszyk_ingot"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "enszyk:enszyk_ore"
+  },
+  "result": "enszyk:enszyk_scrap",
+  "experience": 3.0,
+  "cookingtime": 200
+}

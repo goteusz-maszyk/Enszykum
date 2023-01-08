@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "enszyk_ingot",
+  "ingredients": [
+    {
+      "item": "enszyk:enszyk_block"
+    }
+  ],
+  "result": {
+    "item": "enszyk:enszyk_ingot",
+    "count": 9
+  }
+}
