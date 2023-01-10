@@ -1,0 +1,12 @@
+{
+  "type":"minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_shovel"
+  },
+  "addition": {
+    "item": "enszyk:enszyk_ingot"
+  },
+  "result": {
+    "item": "enszyk:enszyk_shovel"
+  }
+}

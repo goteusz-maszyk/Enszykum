@@ -7,5 +7,14 @@
   "item.enszyk.enszyk_helmet": "Enszykum Helmet",
   "item.enszyk.enszyk_chestplate": "Enszykum Chestplate",
   "item.enszyk.enszyk_leggings": "Enszykum Leggings",
-  "item.enszyk.enszyk_boots": "Enszykum Boots"
+  "item.enszyk.enszyk_boots": "Enszykum Boots",
+  "item.enszyk.enszyk_sword": "Enszykum Sword",
+  "item.enszyk.enszyk_pickaxe": "Enszykum Pickaxe",
+  "item.enszyk.enszyk_axe": "Enszykum Axe",
+  "item.enszyk.enszyk_shovel": "Enszykum Shovel",
+  "item.enszyk.enszyk_hoe": "Enszykum Hoe",
+  "advancements.end.enszyk_armor.title": "Sunk in The End",
+  "advancements.end.enszyk_armor.description": "Good luck mining in caves!",
+  "advancements.end.enszyk_hoe.title": "Final Dedication",
+  "advancements.end.enszyk_hoe.description": "Don't make it, share Enszykum with friends."
 }

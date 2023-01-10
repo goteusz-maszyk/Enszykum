@@ -7,5 +7,14 @@
   "item.enszyk.enszyk_helmet": "Enszykowy hełm",
   "item.enszyk.enszyk_chestplate": "Enszykowy napierśnik",
   "item.enszyk.enszyk_leggings": "Enszykowe nogawice",
-  "item.enszyk.enszyk_boots": "Enszykowe buty"
+  "item.enszyk.enszyk_boots": "Enszykowe buty",
+  "item.enszyk.enszyk_sword": "Enszykowy miecz",
+  "item.enszyk.enszyk_pickaxe": "Enszykowy kilof",
+  "item.enszyk.enszyk_axe": "Enszykowa siekiera",
+  "item.enszyk.enszyk_shovel": "Enszykowa łopata",
+  "item.enszyk.enszyk_hoe": "Enszykowa motyka",
+  "advancements.end.enszyk_armor.title": "Zatopiony w Endzie",
+  "advancements.end.enszyk_armor.description": "Powodzenia z kopaniem w jaskiniach!",
+  "advancements.end.enszyk_hoe.title": "Końcowe zaangażowanie",
+  "advancements.end.enszyk_hoe.description": "Nie rób tego, podziel się Enszykum z przyjaciółmi"
 }

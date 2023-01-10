@@ -3,6 +3,7 @@ package me.gotitim.enszyk;
 import me.gotitim.enszyk.blocks.EnszykOre;
 import me.gotitim.enszyk.events.PlayerMoveCallback;
 import me.gotitim.enszyk.items.EnszykArmor;
+import me.gotitim.enszyk.items.EnszykTools;
 import me.gotitim.enszyk.registeries.ModBlock;
 import me.gotitim.enszyk.registeries.ModItem;
 import net.fabricmc.api.ModInitializer;
@@ -13,8 +14,7 @@ import net.minecraft.block.Material;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ItemStack;
+import net.minecraft.item.*;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.Identifier;
 
@@ -29,9 +29,22 @@ public class Enszyk implements ModInitializer {
         new ModItem("enszyk_scrap");
         new ModBlock("enszyk_block", new Block(FabricBlockSettings.of(Material.METAL).requiresTool().strength(35.0F, 1200.0F)));
         EnszykOre.register();
-        EnszykArmor.addItems();
 
-        ModItem.registerItems();
+        final ArmorMaterial CUSTOM_ARMOR_MATERIAL = new EnszykArmor();
+
+        new ModItem("enszyk_helmet", new ArmorItem(CUSTOM_ARMOR_MATERIAL, EquipmentSlot.HEAD, new Item.Settings().group(ITEM_GROUP)));
+        new ModItem("enszyk_chestplate", new ArmorItem(CUSTOM_ARMOR_MATERIAL, EquipmentSlot.CHEST, new Item.Settings().group(ITEM_GROUP)));
+        new ModItem("enszyk_leggings", new ArmorItem(CUSTOM_ARMOR_MATERIAL, EquipmentSlot.LEGS, new Item.Settings().group(ITEM_GROUP)));
+        new ModItem("enszyk_boots", new ArmorItem(CUSTOM_ARMOR_MATERIAL, EquipmentSlot.FEET, new Item.Settings().group(ITEM_GROUP)));
+
+        final ToolMaterial TOOL_MATERIAL = new EnszykTools();
+
+        new ModItem("enszyk_sword", new SwordItem(TOOL_MATERIAL, 3 ,-2.4F, new Item.Settings().group(ITEM_GROUP)));
+        new ModItem("enszyk_shovel", new ShovelItem(TOOL_MATERIAL, 1.5F, 3.0F, new Item.Settings().group(ITEM_GROUP)));
+        new ModItem("enszyk_pickaxe", new PickaxeItem(TOOL_MATERIAL, 1, -2.8F, new Item.Settings().group(ITEM_GROUP)));
+        new ModItem("enszyk_axe", new AxeItem(TOOL_MATERIAL, 5, -3, new Item.Settings().group(ITEM_GROUP)));
+        new ModItem("enszyk_hoe", new EnszykTools.EnszykHoe(TOOL_MATERIAL, -4, 0.0F, new Item.Settings().group(ITEM_GROUP)));
+
         ModBlock.register();
 
         PlayerMoveCallback.EVENT.register((player) -> {

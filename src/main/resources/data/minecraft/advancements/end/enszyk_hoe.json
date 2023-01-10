@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:end/kill_dragon",
+  "criteria": {
+    "enszyk_hoe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [ "enszyk:enszyk_hoe" ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.end.enszyk_hoe.description"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "enszyk:enszyk_hoe"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.end.enszyk_hoe.title"
+    }
+  },
+  "requirements": [
+    [
+      "enszyk_hoe"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  }
+}

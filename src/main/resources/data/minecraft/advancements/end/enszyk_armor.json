@@ -1,0 +1,47 @@
+{
+  "parent": "minecraft:end/kill_dragon",
+  "criteria": {
+    "enszyk_set": {
+      "conditions": {
+        "items": [
+          {
+            "items": [ "enszyk:enszyk_helmet" ]
+          },
+          {
+            "items": [ "enszyk:enszyk_chestplate" ]
+          },
+          {
+            "items": [ "enszyk:enszyk_leggings" ]
+          },
+          {
+            "items": [ "enszyk:enszyk_boots" ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.end.enszyk_armor.description"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "enszyk:enszyk_chestplate"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.end.enszyk_armor.title"
+    }
+  },
+  "requirements": [
+    [
+      "enszyk_set"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  }
+}
